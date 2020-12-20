@@ -12,6 +12,7 @@ const squareList = (arr) => {
 	// Only change code below this line
 	let positiveNumbers = arr.filter(number => number > 0 );
 	const result = positiveNumbers.map((val) => val ** 2);
+	result.sort();
 	return result;
 	// Only change code above this line
 };
